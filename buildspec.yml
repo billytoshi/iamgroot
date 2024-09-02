@@ -3,13 +3,13 @@ version: 0.2
 
 phases:
 
-  install:
-    commands:
-      - xcode-select --install
-
-  # pre_build:
+  # install:
   #   commands:
-  #     - path
+  #     - command
+
+  pre_build:
+    commands:
+      - xcodebuild -list -project I\ am\ Groot.xcodeproj
 
   # build:
   #   commands:
