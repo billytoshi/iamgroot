@@ -1,0 +1,30 @@
+# buildspec.yml
+version: 0.2
+
+phases:
+
+  install:
+    commands:
+      - xcode-select --install
+
+  # pre_build:
+  #   commands:
+  #     - path
+
+  # build:
+  #   commands:
+  #     - path
+
+  # post_build:
+  #   commands:
+  #     - path
+
+# artifacts:
+#   name: getting-started-$(date +%Y-%m-%d).ipa
+#   files:
+#     - 'getting started.ipa'
+#   base-directory: 'code/build-release'
+
+# cache:
+#   paths:
+#     - 'code/build-release'
