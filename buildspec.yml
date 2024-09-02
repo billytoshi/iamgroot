@@ -14,7 +14,7 @@ phases:
 
   build:
     commands:
-      - xcodebuild build -scheme "I am Groot" -sdk iphoneos -destination generic/platform=iOS
+      - xcodebuild build -scheme "I am Groot" -allowProvisioningUpdates -sdk iphoneos -destination generic/platform=iOS
 
   # post_build:
   #   commands:
