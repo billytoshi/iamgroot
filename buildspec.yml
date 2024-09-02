@@ -9,12 +9,12 @@ phases:
 
   pre_build:
     commands:
-      # - xcodebuild -list -project I\ am\ Groot.xcodeproj
+      - xcodebuild -list -project I\ am\ Groot.xcodeproj
       - xcodebuild clean
 
-  build:
-    commands:
-      - xcodebuild build -scheme "I am Groot" -allowProvisioningUpdates -sdk iphoneos -destination generic/platform=iOS
+  # build:
+  #   commands:
+  #     - xcodebuild build -scheme "I am Groot" -allowProvisioningUpdates -sdk iphoneos -destination generic/platform=iOS
 
   # post_build:
   #   commands:
